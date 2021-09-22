@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BooksOnSpot-Category</title>
+  <link rel="icon" type="image/png" href="images/site/favicon_io/book.png"/>
+  <meta charset="utf-8" />
+  <meta name="description" content="The homepage for My Bookstore" />
+
+  <!-- Import font-awesome icons -->
+
+
+  <!-- order of CSS files is important (this is the "Cascade" part of CSS) -->
+
+  <!-- global.css contains resets, custom properties, and utility classes -->
+ 
+
+  <!-- start from the top-level component and work your way down -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/app-header.css" />
+  <link rel="stylesheet" href="css/header-dropdown.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/app-footer.css" />
+  <link rel="stylesheet" href="css/category.css" />
+  <link rel="stylesheet" href="css/category-book-list.css" />
+  <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+
+</head>
+
+<body>
+  <main>
+    <header class="container">
+      <section class="bookstore-logo">
+        <a href="index.html">
+          <img src="images/site/logo1.jpg" alt="Books on Spot Logo" width="150px" height="auto" />
+        </a>
+      </section>
+      <section class="title-and-search-bar">
+        
+        <form action="category.html">
+          <i class="fas fa-search icon"></i>
+          <input type="text" class="search-bar" placeholder="SEARCH FOR THE TOPIC YOU WANT TO READ ABOUT"/><br />
+        
+        </form>
+      </section>
+      <section>
+        <div class="header-dropdown">
+          <button class="button categories-button">CATEGORIES    <i class="fas fa-chevron-down"></i></button>
+          <ul>
+            <li><a href="category.html?category=Classics">Best Sellers</a></li>
+            <li><a href="category.html?category=Fantasy">Trending</a></li>
+            <li><a href="category.html?category=Mystery">Coding</a></li>
+            <li><a href="category.html?category=Romance">Mystery</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="cart-and-username">
+        <!---- <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        <span class='badge badge-warning' id='lblCartCount'> 2 </span>
+        <button class="login-name">SJ</button> -->
+        <i class="fas fa-shopping-cart cart"></i>
+        <span class='badge badge-warning' id='lblCartCount'> 2 </span>
+        <button class="login-name">SJ</button>
+      </section>
+    </header>
+    <div class="category-page">
+        <nav class="category-nav">
+          <ul class="category-buttons">
+            <li class="nav-buttons">
+                <button class="unselected-category-button">Best Seller</button>
+            </li>
+            <li class="nav-buttons">
+              <button class="unselected-category-button">Trending</button>
+            </li>
+            <li class="nav-buttons">
+                <button class="selected-category-button">Coding</button>
+            </li>
+            <li class="nav-buttons">
+                <button class="unselected-category-button">Mystery</button>
+            </li>
+            <li class="nav-buttons">
+                <button class="unselected-category-button">Romance</button>
+            </li>
+          </ul>
+        </nav>
+        <section class="category-book-list">
+            <div class="category-text">
+                <p class="top-books-category">Featured new released books</p>                
+              </div>
+              <div class="bada-wala-div-category">
+                <div class="category-page-image-items">
+                  
+                  <i class="fas fa-book-reader bookIcon"></i>
+                  <a href="index.html">
+                    
+                    <img src="images/books/book9.jpg" alt="Cracking the Coding Interview">
+                    <div class="book-name-category">Cracking Coding Interview</div>
+                    <div class="book-price-category">$19.69</div>
+                    <button class="add2cart-category">Add to Cart</button>
+                   
+                  </a>
+                  <a href="index.html">
+                    <img src="images/books/book11.jpg" alt="Hacking-Security">
+                    <div class="book-name-category">Hacking-Security</div>
+                    <div class="book-price-category">$25.14</div>
+                    <button class="add2cart-category">Add to Cart</button>
+                   
+                  </a>
+                  <a href="index.html">
+                    <img src="images/books/book12.jpg" alt="Everything about Computer Science">
+                    <div class="book-name-category">Computer Science Coding</div>
+                    <div class="book-price-category">$12.74</div>
+                    <button class="add2cart-category">Add to Cart</button>
+                   
+                  </a>
+                  <a href="index.html">
+                    <img src="images/books/book14.jpg" alt="Coding Interview Questions">
+                    <div class="book-name-category">Coding Interview Questions</div>
+                    <div class="book-price-category">$15.58</div>
+                    <button class="add2cart-category">Add to Cart</button>
+                   
+                  </a> 
+                  <a href="index.html">
+                    <img src="images/books/book7.jpg" alt="Web Development">
+                    <div class="book-name-category">Web Development</div>
+                    <div class="book-price-category">$19.47</div>
+                    <button class="add2cart-category">Add to Cart</button>
+                   
+                  </a> 
+                  <a href="index.html">
+                    <img src="images/books/book8.jpg" alt="PHP and MySQL">
+                    <div class="book-name-category">PHP and MySQL</div>
+                    <div class="book-price-category">$29.99</div>
+                    <button class="add2cart-category">Add to Cart</button>
+                   
+                  </a>
+                </div>                
+                  <div class="category-text">
+                    <p class="top-books-category">Favourite picks</p>                
+                  </div>
+                  <div class="category-page-image-items">
+                    <!-- Some Content-->
+                    <a href="index.html">
+                      <img src="images/books/book13.jpg" alt="Coding with JavaScript">
+                      <div class="book-name-category">Coding with JavaScript</div>
+                      <div class="book-price-category">$21.96</div>
+                      <button class="add2cart-category">Add to Cart</button>
+                     
+                    </a>
+                    <a href="index.html">
+                      <img src="images/books/book17.jpg" alt="Coding for Dummies">
+                      <div class="book-name-category">Coding for Dummies</div>
+                      <div class="book-price-category">$15.15</div>
+                      <button class="add2cart-category">Add to Cart</button>
+                     
+                    </a>
+                    <a href="index.html">
+                      <img src="images/books/book18.jpg" alt="Coding projects in Python">
+                      <div class="book-name-category">Coding projects in Python   </div>
+                      <div class="book-price-category">$13.94</div>
+                      <button class="add2cart-category">Add to Cart</button>
+                     
+                    </a>
+                    <i class="fas fa-book-reader bookIconDown"></i>
+                    <a href="index.html">
+                      <img src="images/books/book19.jpg" alt="Get Coding!">
+                      <div class="book-name-category">Get Coding!   </div>
+                      <div class="book-price-category">$18.38</div>
+                      <button class="add2cart-category">Add to Cart</button>
+                     
+                    </a> 
+                    <a href="index.html">
+                      <img src="images/books/book20.jpg" alt="Coding for Kids">
+                      <div class="book-name-category">Coding for Kids    </div>
+                      <div class="book-price-category">$26.10</div>
+                      <button class="add2cart-category">Add to Cart</button>
+                     
+                    </a> 
+                    <a href="index.html">
+                      <img src="images/books/book21.jpg" alt="Secure coding in C and C++">
+                      <div class="book-name-category">Secure coding in C and C++  </div>
+                      <div class="book-price-category">$28.99</div>
+                      <button class="add2cart-category">Add to Cart</button>
+                     
+                    </a>
+                </div>
+              </div>
+            
+            
+            </section>  
+      </div>
+
+   
+    <footer class="container1">
+      <section class="copyright"> 
+        <i class="far fa-copyright"></i> 2021 BooksOnSpot LLC
+      </section>
+      <section class="links">        
+        <a href="index.html">contact</a>&nbsp;&nbsp;&nbsp;<a href="index.html">directions</a>
+      </section>
+      <section class="social-media-icons">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+       
+      </section>
+     
+    </footer>
+
+
+
+    
+    
+  </main>
+</body>
+
+</html>

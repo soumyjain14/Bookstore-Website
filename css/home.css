@@ -1,0 +1,126 @@
+.home-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.book_ground{
+  width: 1400px;
+  height: 250px;
+  margin-left: 10px;
+  border-radius: 30px;
+  padding: 10px;
+  opacity: 0.75;
+}
+
+.welcome{
+  font-size: 30px;
+  font-family: 'Bangers';
+  margin-left: 110px;
+  margin-top: 30px;
+}
+.welcome-button{
+  font-size: 25px;
+  width: 270px;
+  text-align: center;
+  height: 60px;
+  background-color: rgba(73, 84, 87, 46%);
+  margin-left: 80px;
+  
+}
+
+.category-text{
+  display: flex;
+  flex-direction: row;
+  font-size: 23px;
+  font-family: 'Bangers';
+  
+}
+.top-books{
+  width: 728px;
+  margin-left: 38px;
+  
+}
+.recommended{
+  text-align: right;
+  width: 690px;
+  margin-right: 38px;
+}
+
+.category-image-items img{
+  width: auto;
+  height: 200px;
+
+  margin-left: 28px;
+}
+.category-image-items-right img{
+  width: auto;
+  height: 200px;
+  margin-left: 40px;
+
+  
+}
+.category-image-items-right{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 135px;
+}
+
+.bada-wala-div{
+  display: flex;
+  flex-direction: row;
+}
+
+.category-image-items {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-bottom: 10px;
+}
+
+.category-image-items a {
+  text-align: center;
+  cursor: pointer;
+}
+
+
+.category-image-items p{
+  font-family: 'Bangers';
+  font-size: 50px;
+}
+
+.book-name{
+  margin-left: 35px;
+  font-size: 18px;
+}
+.book-price{
+  font-size: 20px;
+  margin-left: 28px;
+}
+
+.book-name-right{
+  margin-left: 65px;
+  font-size: 18px;
+}
+.book-price-right{
+  margin-left: 85px;
+  font-size: 20px;
+}
+
+.add2cart{
+  font-size: 15px;
+  width: 90px;
+  text-align: center;
+  height: 30px;
+  background-color: rgba(73, 84, 87, 26%);
+  margin-left: 30px;
+}
+.add2cart-right{
+  font-size: 15px;
+  width: 90px;
+  text-align: center;
+  height: 30px;
+  background-color: rgba(73, 84, 87, 26%);
+  margin-left: 60px;
+}

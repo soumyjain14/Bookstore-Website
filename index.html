@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>BooksOnSpot.com</title>
+  <link rel="icon" type="image/png" href="images/site/favicon_io/book.png"/>
+  <meta charset="utf-8" />
+  <meta name="description" content="The homepage for My Bookstore" />
+
+  <!-- Import font-awesome icons -->
+
+
+  <!-- order of CSS files is important (this is the "Cascade" part of CSS) -->
+
+  <!-- global.css contains resets, custom properties, and utility classes -->
+ 
+
+  <!-- start from the top-level component and work your way down -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" href="css/app.css" />
+  <link rel="stylesheet" href="css/app-header.css" />
+  <link rel="stylesheet" href="css/header-dropdown.css" />
+  <link rel="stylesheet" href="css/home.css" />
+  <link rel="stylesheet" href="css/app-footer.css" />
+  <link href='https://fonts.googleapis.com/css?family=Bebas Neue' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bangers' rel='stylesheet'>
+
+</head>
+
+<body>
+  <main>
+    <header class="container">
+      <section class="bookstore-logo">
+        <a href="index.html">
+          <img src="images/site/logo1.jpg" alt="Books on Spot Logo" width="150px" height="auto" />
+        </a>
+      </section>
+      <section class="title-and-search-bar">
+        
+        <form action="category.html">
+          <i class="fas fa-search icon"></i>
+          <input type="text" class="search-bar" placeholder="SEARCH FOR THE TOPIC YOU WANT TO READ ABOUT"/><br />
+        
+        </form>
+      </section>
+      <section>
+        <div class="header-dropdown">
+          <button class="button categories-button">CATEGORIES    <i class="fas fa-chevron-down"></i></button>
+          <ul>
+            <li><a href="category1.html">Best Sellers</a></li>
+            <li><a href="category1.html">Trending</a></li>
+            <li><a href="category1.html">Coding</a></li>
+            <li><a href="category1.html">Mystery</a></li>
+          </ul>
+        </div>
+      </section>
+      <section class="cart-and-username">
+        <!---- <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        <span class='badge badge-warning' id='lblCartCount'> 2 </span>
+        <button class="login-name">SJ</button> -->
+        <i class="fas fa-shopping-cart cart"></i>
+        <span class='badge badge-warning' id='lblCartCount'> 2 </span>
+        <button class="login-name">SJ</button>
+      </section>
+    </header>
+
+    <div class="home-page">
+      <section class="welcome-text">
+        <div class="book_ground" style="background-image: url('images/site/book_background.jpg');">
+          <p class="welcome">WE HELP YOU FIND YOUR<br> MAGICAL BOOK</p>
+         <button class="welcome-button">EXPLORE BOOKS!</button>
+        </div>
+      </section>
+      <section class="category-images">
+        <div class="category-text">
+          <h3 class="top-books">TOP BOOKS</h3>
+          <h3 class="recommended">RECOMMENDED FOR YOU</h3>
+        </div>
+        <div class="bada-wala-div">
+        <div class="category-image-items">
+          <a href="index.html">
+            <img src="images/books/book1.jpg" alt="The madness of crowds">
+            <div class="book-name">The madness of crowds </div>
+            <div class="book-price">$18.35</div>
+            <button class="add2cart">Add to Cart</button>
+           
+          </a>
+          <a href="index.html">
+            <img src="images/books/book2.jpg" alt="Gamino Island">
+            <div class="book-name">Gamino Island</div>
+            <div class="book-price">$20.65</div>
+            <button class="add2cart">Add to Cart</button>
+           
+          </a>
+          <a href="index.html">
+            <img src="images/books/book3.jpg" alt="Daylight">
+            <div class="book-name">Daylight </div>
+            <div class="book-price">$16.23</div>
+            <button class="add2cart">Add to Cart</button>
+           
+          </a>
+          <a href="index.html">
+            <img src="images/books/book5.jpg" alt="Kingdom of the blind">
+            <div class="book-name">Kingdom of the blind</div>
+            <div class="book-price">$25.89</div>
+            <button class="add2cart">Add to Cart</button>
+           
+          </a>   
+                 
+          
+          
+        </div>
+        <div class="category-image-items-right">
+          <a href="index.html">
+            <img src="images/books/book7.jpg" alt="Web Development">
+            <div class="book-name-right">Web Development</div>
+            <div class="book-price-right">$19.47</div>
+            <button class="add2cart-right">Add to Cart</button>
+           
+          </a> 
+          <a href="index.html">
+            <img src="images/books/book8.jpg" alt="PHP and MySQL">
+            <div class="book-name-right">PHP and MySQL</div>
+            <div class="book-price-right">$29.99</div>
+            <button class="add2cart-right">Add to Cart</button>
+           
+          </a> 
+          <a href="index.html">
+            <img src="images/books/book11.jpg" alt="Hacking-Security">
+            <div class="book-name-right">Hacking-Security</div>
+            <div class="book-price-right">$25.14</div>
+            <button class="add2cart-right">Add to Cart</button>
+           
+          </a> 
+          
+          
+          
+
+        </div>
+      </div>
+      </section>
+    </div>
+    <footer class="container1">
+      <section class="copyright"> 
+        <i class="far fa-copyright"></i> 2021 BooksOnSpot LLC
+      </section>
+      <section class="links">        
+        <a href="index.html">contact</a>&nbsp;&nbsp;&nbsp;<a href="index.html">directions</a>
+      </section>
+      <section class="social-media-icons">
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+       
+      </section>
+     
+    </footer>
+
+
+
+    
+    
+  </main>
+</body>
+
+</html>

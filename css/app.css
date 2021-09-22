@@ -1,0 +1,10 @@
+main {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Bebas Neue';
+}
+
+
+.category-image-items p{
+  color: white;
+}

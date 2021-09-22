@@ -1,0 +1,30 @@
+.category-buttons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: var(--neutral-color);
+  list-style-type: none; 
+}
+.category-buttons button {
+  padding: 6px;
+  width: 170px;
+ 
+  font-size: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-left: 90px;
+  font-family: 'Bebas Neue';
+}
+.selected-category-button {
+  background-color: var(--primary-color);
+}
+
+.unselected-category-button{
+  background-color: rgba(73, 84, 87, 26%);
+  border: none;
+}
+
+.unselected-category-button:hover,
+.unselected-category-button:active {
+  background-color:rgba(73, 84, 87, 66%) ;
+}

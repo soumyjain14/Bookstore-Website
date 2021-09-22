@@ -1,0 +1,95 @@
+header {
+  background: var(--secondary-background-color);
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+
+.container section{
+  width: 350px;
+}
+.cart-and-username i {
+  color: rgba(73, 84, 87, 46%);
+  margin-right: 40px;
+  margin-top: 30px;
+}
+
+.cart-and-username {
+  text-align: right;
+  font-size: 30px;
+  
+}
+
+.badge {
+
+  padding-top: -20px;
+  padding-left: 9px;
+  padding-right: 5px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+}
+
+
+#lblCartCount {
+    font-size: 15px;
+    background:black;
+    color: #fff;
+    padding: 5px,5px;
+    vertical-align: 25px;
+    margin-left: -50px; 
+    margin-top: 30px;
+}
+
+.icon {
+  padding: 7px;
+  color: #3E3A39;
+  min-width: 50px;
+  text-align: right;
+  margin-left:350px;
+  
+}
+
+.title-and-search-bar i{
+  position: absolute;
+}
+
+.title-and-search-bar{
+  margin-top: 30px;
+}
+
+.search-bar {
+  padding: 0.5em;
+  text-align: left;
+  width:400px;
+ 
+  background-color:rgba(73, 84, 87, 26%);
+  border-radius: 15px;  
+  font-size: 14px;
+  color:black;
+  font-weight: 600;
+}
+.login-name{
+  /*padding: 0.4em*/
+  text-align: center;
+  margin-bottom: 2px;
+  background-color: rgba(73, 84, 87, 26%);;
+  border-radius: 100px;
+  font-size: 25px;
+  color: black;
+  font-weight:400;
+  margin-right: 20px;
+}
+
+
+.text-logo {
+  font-family: var(--title-font-family);
+}
+
+
+
+@media (max-width: 1350px) {
+  header {
+    flex-direction: row;
+  }
+}

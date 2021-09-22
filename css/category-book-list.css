@@ -1,0 +1,88 @@
+
+.book-title {
+  font-weight: bold;
+}
+
+.book-author {
+  font-style: italic;
+}
+
+.book-name-category{
+  
+  font-size: 18px;
+}
+.book-price-category{
+  font-size: 20px;
+  
+}
+.book-image img{
+  width: auto;
+  height: 200px;
+
+  margin-left: 28px;
+}
+
+.top-books-category{
+  padding: 10px;
+
+}
+.book-image-category img{
+  width: auto;
+  height: 200px;
+ 
+}
+
+.category-page-image-items{  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1em;
+  position: relative;
+  
+  
+}
+.category-page-image-items img{
+  width: 160px;
+  height: 200px;
+ 
+}
+
+.category-page-image-items a {
+  text-align: center;
+  cursor: pointer;
+  margin-left: 55px;
+}
+
+
+
+.category-page-image-items p{
+  font-family: 'Bangers';
+  font-size: 50px;
+}
+
+
+.add2cart-category{
+  font-size: 15px;
+  width: 90px;
+  text-align: center;
+  height: 30px;
+  background-color: rgba(73, 84, 87, 26%);
+ 
+}
+.bookIcon{
+  position: absolute;
+  font-size: 42px;
+  color: rgba(73, 84, 87, 100%);;
+  margin-left: 200px;
+  margin-top: 150px;
+}
+
+.bookIconDown{
+  position: absolute;
+  font-size: 42px;
+  color: rgba(73, 84, 87, 100%);;
+  margin-left: 890px;
+  margin-top: 150px;
+}
+
+
